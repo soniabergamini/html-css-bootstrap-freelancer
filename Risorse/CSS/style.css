@@ -11,7 +11,14 @@ header {
 header > nav > div {
     height: 5.625rem;
 }
-
 /******* MAIN STYLE *******/
+/* Hero Section */
+#heroSec {
+    background-color: var(--greenBG);
+}
+
+.heroLine {
+    border: 2px solid;
+}
 
 /******* FOOTER STYLE *******/
