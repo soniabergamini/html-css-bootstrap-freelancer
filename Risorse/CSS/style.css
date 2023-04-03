@@ -1,18 +1,18 @@
 :root {
     --greenBG: #1CBC9C;
-    --blueFooter: #3A546D;
+    --darkBG: #2D3E50;
 }
 
 /******* HEADER STYLE *******/
 header {
-    background-color: #2D3E50;
+    background-color: var(--darkBG);
 }
 
 header > nav > div {
     height: 5.625rem;
 }
+
 /******* MAIN STYLE *******/
-/* Hero Section */
 #heroSec ,
 #aboutSec , 
 #contactSec button {
@@ -24,3 +24,19 @@ header > nav > div {
 }
 
 /******* FOOTER STYLE *******/
+footer > section:first-child {
+    background-color: #3A546D;
+}
+
+.greenCol {
+    color: var(--greenBG);
+}
+
+.socialIcon {
+    width: 2rem;
+    height: 2rem;
+}
+
+footer > section:last-child {
+    background-color: var(--darkBG);
+}
