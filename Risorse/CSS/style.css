@@ -13,7 +13,8 @@ header > nav > div {
 }
 /******* MAIN STYLE *******/
 /* Hero Section */
-#heroSec {
+#heroSec ,
+#aboutSec {
     background-color: var(--greenBG);
 }
 
